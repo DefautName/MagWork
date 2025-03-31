@@ -1,0 +1,118 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/cl.exe 
+      Build flags: -DQT_QML_DEBUG
+      Id flags:  
+      
+      The output was:
+      0
+      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.41.34120 для x64
+      (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Кузин Илья/Documents/Studing/Магистр/Магистерский_диплом/MagWork/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/qtc_Ninja_Multi_Config/CMakeFiles/3.31.4/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Примечание: включение файла:  C:\\Users\\Кузин Илья\\Documents\\Studing\\Магистр\\Магистерский_диплом\\MagWork\\build\\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\\qtc_Ninja_Multi_Config\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Примечание: включение файла:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/\u041a\u0443\u0437\u0438\u043d \u0418\u043b\u044c\u044f/Documents/Studing/\u041c\u0430\u0433\u0438\u0441\u0442\u0440/\u041c\u0430\u0433\u0438\u0441\u0442\u0435\u0440\u0441\u043a\u0438\u0439_\u0434\u0438\u043f\u043b\u043e\u043c/MagWork/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/qtc_Ninja_Multi_Config/CMakeFiles/CMakeScratch/TryCompile-m4q0eh"
+      binary: "C:/Users/\u041a\u0443\u0437\u0438\u043d \u0418\u043b\u044c\u044f/Documents/Studing/\u041c\u0430\u0433\u0438\u0441\u0442\u0440/\u041c\u0430\u0433\u0438\u0441\u0442\u0435\u0440\u0441\u043a\u0438\u0439_\u0434\u0438\u043f\u043b\u043e\u043c/MagWork/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/qtc_Ninja_Multi_Config/CMakeFiles/CMakeScratch/TryCompile-m4q0eh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Кузин Илья/Documents/Studing/Магистр/Магистерский_диплом/MagWork/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/qtc_Ninja_Multi_Config/CMakeFiles/CMakeScratch/TryCompile-m4q0eh'
+        
+        Run Build Command(s): C:/PROGRA~1/MIB055~1/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_c6107
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\HostX64\\x64\\cl.exe  /nologo /TP -DCMAKE_INTDIR=\\"Debug\\"  -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c6107.dir\\Debug\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_c6107.dir\\Debug\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_c6107.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\ld.exe" /nologo CMakeFiles\\cmTC_c6107.dir\\Debug\\CMakeCXXCompilerABI.cpp.obj  /out:Debug\\cmTC_c6107.exe /implib:Debug\\cmTC_c6107.lib /pdb:Debug\\cmTC_c6107.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: Debug/cmTC_c6107.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_c6107.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\ld.exe" /nologo CMakeFiles\\cmTC_c6107.dir\\Debug\\CMakeCXXCompilerABI.cpp.obj  /out:Debug\\cmTC_c6107.exe /implib:Debug\\cmTC_c6107.lib /pdb:Debug\\cmTC_c6107.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\ld.exe /nologo CMakeFiles\\cmTC_c6107.dir\\Debug\\CMakeCXXCompilerABI.cpp.obj /out:Debug\\cmTC_c6107.exe /implib:Debug\\cmTC_c6107.lib /pdb:Debug\\cmTC_c6107.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_c6107.dir\\Debug/intermediate.manifest CMakeFiles\\cmTC_c6107.dir\\Debug/manifest.res" failed (exit code 0) with the following output:
+        no such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/cl.exe"
+    directories:
+      source: "C:/Users/\u041a\u0443\u0437\u0438\u043d \u0418\u043b\u044c\u044f/Documents/Studing/\u041c\u0430\u0433\u0438\u0441\u0442\u0440/\u041c\u0430\u0433\u0438\u0441\u0442\u0435\u0440\u0441\u043a\u0438\u0439_\u0434\u0438\u043f\u043b\u043e\u043c/MagWork/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/qtc_Ninja_Multi_Config/CMakeFiles/CMakeScratch/TryCompile-1fy143"
+      binary: "C:/Users/\u041a\u0443\u0437\u0438\u043d \u0418\u043b\u044c\u044f/Documents/Studing/\u041c\u0430\u0433\u0438\u0441\u0442\u0440/\u041c\u0430\u0433\u0438\u0441\u0442\u0435\u0440\u0441\u043a\u0438\u0439_\u0434\u0438\u043f\u043b\u043e\u043c/MagWork/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/qtc_Ninja_Multi_Config/CMakeFiles/CMakeScratch/TryCompile-1fy143"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Кузин Илья/Documents/Studing/Магистр/Магистерский_диплом/MagWork/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/qtc_Ninja_Multi_Config/CMakeFiles/CMakeScratch/TryCompile-1fy143'
+        
+        Run Build Command(s): C:/PROGRA~1/MIB055~1/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_876df
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\HostX64\\x64\\cl.exe  /nologo /TP -DCMAKE_INTDIR=\\"Debug\\"  -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_876df.dir\\Debug\\testCXXCompiler.cxx.obj /FdCMakeFiles\\cmTC_876df.dir\\Debug\\ /FS -c "C:\\Users\\╨Ъ╤Г╨╖╨╕╨╜ ╨Ш╨╗╤М╤П\\Documents\\Studing\\╨Ь╨░╨│╨╕╤Б╤В╤А\\╨Ь╨░╨│╨╕╤Б╤В╨╡╤А╤Б╨║╨╕╨╣_╨┤╨╕╨┐╨╗╨╛╨╝\\MagWork\\build\\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\\qtc_Ninja_Multi_Config\\CMakeFiles\\CMakeScratch\\TryCompile-1fy143\\testCXXCompiler.cxx"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_876df.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\ld.exe" /nologo CMakeFiles\\cmTC_876df.dir\\Debug\\testCXXCompiler.cxx.obj  /out:Debug\\cmTC_876df.exe /implib:Debug\\cmTC_876df.lib /pdb:Debug\\cmTC_876df.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: Debug/cmTC_876df.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\\cmTC_876df.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\ld.exe" /nologo CMakeFiles\\cmTC_876df.dir\\Debug\\testCXXCompiler.cxx.obj  /out:Debug\\cmTC_876df.exe /implib:Debug\\cmTC_876df.lib /pdb:Debug\\cmTC_876df.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\ld.exe /nologo CMakeFiles\\cmTC_876df.dir\\Debug\\testCXXCompiler.cxx.obj /out:Debug\\cmTC_876df.exe /implib:Debug\\cmTC_876df.lib /pdb:Debug\\cmTC_876df.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_876df.dir\\Debug/intermediate.manifest CMakeFiles\\cmTC_876df.dir\\Debug/manifest.res" failed (exit code 0) with the following output:
+        no such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
