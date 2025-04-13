@@ -14,56 +14,65 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="OpenPushBut">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>0</x>
       <y>10</y>
-      <width>83</width>
-      <height>29</height>
+      <width>33</width>
+      <height>27</height>
      </rect>
     </property>
     <property name="text">
-     <string>Открыть</string>
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DocumentOpen"/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="Save">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>80</x>
       <y>10</y>
-      <width>83</width>
-      <height>29</height>
+      <width>33</width>
+      <height>27</height>
      </rect>
     </property>
     <property name="text">
-     <string>Сохранить</string>
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DocumentSave"/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="SaveAs">
     <property name="geometry">
      <rect>
-      <x>190</x>
+      <x>40</x>
       <y>10</y>
-      <width>83</width>
-      <height>29</height>
+      <width>33</width>
+      <height>27</height>
      </rect>
     </property>
     <property name="text">
-     <string>Сохран как</string>
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DocumentSaveAs"/>
     </property>
    </widget>
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>50</y>
+      <x>0</x>
+      <y>40</y>
       <width>761</width>
       <height>501</height>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
