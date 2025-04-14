@@ -30,14 +30,14 @@ void MainWindow::on_OpenPushBut_clicked()
 
 void MainWindow::on_SaveAs_clicked()
 {
-    /*
-QString fileName = QFileDialog::getSaveFileName(this,
-                            QString::fromUtf8("Сохранить файл"),
-                            QDir::currentPath(),
-                            "Images (*.png *.xpm *.jpg);;All files (*.*)");
-     * */
+
+    QString fileName = QFileDialog::getSaveFileName(this,
+                                QString::fromUtf8("Сохранить файл"),
+                                QDir::currentPath(),
+                                "JSON files (*.json)");
+
     QMessageBox msgBox;     // диалоговое окно
-    msgBox.setText("SaveAs"); // устанавливаем текст
+    msgBox.setText("SaveAs " + fileName); // устанавливаем текст
     msgBox.exec();  // отображаем диалоговое окно
 }
 
