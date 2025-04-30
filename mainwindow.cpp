@@ -4,6 +4,12 @@
 #include <QMessageBox>
 #include <QFileDialog>
 #include <QtGui>
+
+#include <QCoreApplication>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QJsonArray>
+#include <QFile>
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -21,7 +27,7 @@ void MainWindow::on_OpenPushBut_clicked()
      QString fileName = QFileDialog::getOpenFileName(this,
                                                     QString::fromUtf8("Открыть файл"),
                                                     QDir::currentPath(),
-                                                    "All files (*.*)");
+                                                    "JSON files (*.json)");
     QMessageBox msgBox;     // диалоговое окно
     msgBox.setText(fileName); // устанавливаем текст
     msgBox.exec();  // отображаем диалоговое окно
