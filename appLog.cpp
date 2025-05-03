@@ -6,7 +6,7 @@
  */
 double ReverseFraction(double frac)
 {
-    if(frac<1 || frac>5)
+    if(frac < 1 || frac > 5)
         return -1;//Проерка на корректность ввода
 
     return 1/frac;
