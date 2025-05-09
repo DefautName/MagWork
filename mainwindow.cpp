@@ -55,3 +55,21 @@ void MainWindow::on_Save_clicked()
     msgBox.exec();  // отображаем диалоговое окно
 }
 
+
+void MainWindow::on_CompHelp_clicked()
+{
+    QMessageBox msgBox;     // диалоговое окно
+    msgBox.setText("Объяснение как сделать сравнение вариантов по критериям"); // устанавливаем текст
+    msgBox.exec();  // отображаем диалоговое окно
+
+}
+
+
+void MainWindow::on_KritHelp_clicked()
+{
+    QMessageBox msgBox;     // диалоговое окно
+    msgBox.setText("Объяснение как сделать сравнение критериев между собой"); // устанавливаем текст
+    msgBox.exec();  // отображаем диалоговое окно
+
+}
+

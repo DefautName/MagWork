@@ -108,13 +108,13 @@
      </size>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
       <string>Варианты</string>
      </attribute>
-     <widget class="QLineEdit" name="taskName">
+     <widget class="QLineEdit" name="TaskName">
       <property name="geometry">
        <rect>
         <x>170</x>
@@ -124,7 +124,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="VarOne">
+     <widget class="QLineEdit" name="Var1">
       <property name="geometry">
        <rect>
         <x>170</x>
@@ -134,7 +134,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="VarTwo">
+     <widget class="QLineEdit" name="Var2">
       <property name="geometry">
        <rect>
         <x>170</x>
@@ -191,7 +191,7 @@
        <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QLineEdit" name="NCrit_1">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -217,7 +217,7 @@
        <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_2">
+     <widget class="QLineEdit" name="NCrit_2">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -243,7 +243,7 @@
        <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_3">
+     <widget class="QLineEdit" name="Crit_21">
       <property name="geometry">
        <rect>
         <x>220</x>
@@ -278,11 +278,23 @@
         <height>31</height>
        </rect>
       </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
       <property name="readOnly">
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_5">
+     <widget class="QLineEdit" name="Crit_12">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -292,7 +304,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_6">
+     <widget class="QLineEdit" name="Crit_22">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -301,8 +313,20 @@
         <height>31</height>
        </rect>
       </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_7">
+     <widget class="QLineEdit" name="NCrit_3">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -328,7 +352,7 @@
        <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_8">
+     <widget class="QLineEdit" name="Crit_31">
       <property name="geometry">
        <rect>
         <x>220</x>
@@ -338,7 +362,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_9">
+     <widget class="QLineEdit" name="Crit_32">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -348,7 +372,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_10">
+     <widget class="QLineEdit" name="Crit_13">
       <property name="geometry">
        <rect>
         <x>300</x>
@@ -358,7 +382,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_11">
+     <widget class="QLineEdit" name="Crit_23">
       <property name="geometry">
        <rect>
         <x>300</x>
@@ -368,7 +392,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_12">
+     <widget class="QLineEdit" name="Crit_33">
       <property name="geometry">
        <rect>
         <x>300</x>
@@ -376,6 +400,18 @@
         <width>31</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="label_9">
@@ -410,7 +446,7 @@
        <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_13">
+     <widget class="QLineEdit" name="Crit_41">
       <property name="geometry">
        <rect>
         <x>220</x>
@@ -420,7 +456,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_14">
+     <widget class="QLineEdit" name="Crit_42">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -430,7 +466,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_15">
+     <widget class="QLineEdit" name="Crit_43">
       <property name="geometry">
        <rect>
         <x>300</x>
@@ -440,7 +476,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_16">
+     <widget class="QLineEdit" name="NCrit_4">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -450,7 +486,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_17">
+     <widget class="QLineEdit" name="Crit_53">
       <property name="geometry">
        <rect>
         <x>300</x>
@@ -460,7 +496,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_18">
+     <widget class="QLineEdit" name="Crit_52">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -470,7 +506,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_19">
+     <widget class="QLineEdit" name="NCrit_5">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -480,7 +516,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_20">
+     <widget class="QLineEdit" name="Crit_51">
       <property name="geometry">
        <rect>
         <x>220</x>
@@ -506,7 +542,7 @@
        <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_21">
+     <widget class="QLineEdit" name="Crit_54">
       <property name="geometry">
        <rect>
         <x>340</x>
@@ -516,7 +552,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_22">
+     <widget class="QLineEdit" name="Crit_44">
       <property name="geometry">
        <rect>
         <x>340</x>
@@ -524,6 +560,18 @@
         <width>31</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="label_12">
@@ -542,7 +590,7 @@
        <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_23">
+     <widget class="QLineEdit" name="Crit_14">
       <property name="geometry">
        <rect>
         <x>340</x>
@@ -552,7 +600,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_24">
+     <widget class="QLineEdit" name="Crit_34">
       <property name="geometry">
        <rect>
         <x>340</x>
@@ -562,7 +610,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_25">
+     <widget class="QLineEdit" name="Crit_24">
       <property name="geometry">
        <rect>
         <x>340</x>
@@ -588,7 +636,7 @@
        <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_26">
+     <widget class="QLineEdit" name="Crit_15">
       <property name="geometry">
        <rect>
         <x>380</x>
@@ -608,7 +656,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_28">
+     <widget class="QLineEdit" name="Crit_45">
       <property name="geometry">
        <rect>
         <x>380</x>
@@ -618,7 +666,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_29">
+     <widget class="QLineEdit" name="Crit_55">
       <property name="geometry">
        <rect>
         <x>380</x>
@@ -627,8 +675,20 @@
         <height>31</height>
        </rect>
       </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_30">
+     <widget class="QLineEdit" name="Crit_25">
       <property name="geometry">
        <rect>
         <x>380</x>
@@ -682,7 +742,7 @@
        <string>Критерий</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="Help">
+     <widget class="QPushButton" name="CompHelp">
       <property name="geometry">
        <rect>
         <x>550</x>
@@ -704,7 +764,7 @@
         <x>250</x>
         <y>90</y>
         <width>21</width>
-        <height>20</height>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
@@ -714,26 +774,26 @@
        <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLabel" name="label_20">
+     <widget class="QLabel" name="ComVar1">
       <property name="geometry">
        <rect>
-        <x>110</x>
+        <x>50</x>
         <y>90</y>
-        <width>81</width>
-        <height>20</height>
+        <width>150</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
        <string>Вариант 1</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_21">
+     <widget class="QLabel" name="ComVar2">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>320</x>
         <y>90</y>
-        <width>91</width>
-        <height>20</height>
+        <width>150</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
@@ -765,10 +825,10 @@
      <attribute name="title">
       <string>Результат</string>
      </attribute>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="StartCompare">
       <property name="geometry">
        <rect>
-        <x>110</x>
+        <x>10</x>
         <y>30</y>
         <width>211</width>
         <height>51</height>
@@ -778,12 +838,12 @@
        <string>Произвести сравнение</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_14">
+     <widget class="QLabel" name="VinVar">
       <property name="geometry">
        <rect>
         <x>60</x>
         <y>120</y>
-        <width>151</width>
+        <width>250</width>
         <height>21</height>
        </rect>
       </property>
@@ -823,12 +883,12 @@
        <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLabel" name="label_17">
+     <widget class="QLabel" name="LoseVar">
       <property name="geometry">
        <rect>
         <x>60</x>
         <y>150</y>
-        <width>171</width>
+        <width>250</width>
         <height>21</height>
        </rect>
       </property>
@@ -839,14 +899,49 @@
      <widget class="QLabel" name="label_18">
       <property name="geometry">
        <rect>
-        <x>230</x>
+        <x>340</x>
         <y>90</y>
         <width>201</width>
         <height>20</height>
        </rect>
       </property>
       <property name="text">
-       <string>Рейтинг(Может и не нужен)</string>
+       <string>Рейтинг</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="RatWin">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>120</y>
+        <width>63</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="RatWin_2">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>150</y>
+        <width>63</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
     </widget>

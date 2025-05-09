@@ -24,6 +24,10 @@ private slots:
 
     void on_Save_clicked();
 
+    void on_CompHelp_clicked();
+
+    void on_KritHelp_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
