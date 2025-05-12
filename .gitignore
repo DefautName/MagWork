@@ -59,3 +59,5 @@ saves/
 .DS_Store
 .idea/
 build/
+
+CMakeLists.txt.user
