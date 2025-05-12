@@ -15,22 +15,20 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+        source/main.cpp
+        source/mainwindow.cpp
+        source/mainwindow.h
+        source/mainwindow.ui
+        source/appLog.cpp
+        source/appLog.h
+        source/MAI.h
+        source/MAI.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(MagWork
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        appLog.cpp
-        appLog.h
-        MAI.h
-        MAI.cpp
-
-
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET MagWork APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
