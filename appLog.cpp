@@ -11,3 +11,15 @@ double ReverseFraction(double frac)
 
     return 1/frac;
 }
+
+
+void MakeRavers (std::string parEl, double frac,QWidget *parent)
+{
+    char row = parEl[5];
+    char col = parEl[6];
+
+    QString rewEl="Crit_"+col+row;
+    QLineEdit *rewEdit = parent->findChild<QLineEdit*>(rewEl);
+
+    //rewEdit->setText(ReverseFraction(frac));
+}

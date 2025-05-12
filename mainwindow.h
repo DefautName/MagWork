@@ -28,6 +28,8 @@ private slots:
 
     void on_KritHelp_clicked();
 
+    void on_Crit_12_editingFinished();
+
 private:
     Ui::MainWindow *ui;
 };

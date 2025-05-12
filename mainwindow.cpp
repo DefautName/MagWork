@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include "appLog.h"
 
 #include <QMessageBox>
 #include <QFileDialog>
@@ -71,5 +72,11 @@ void MainWindow::on_KritHelp_clicked()
     msgBox.setText("Объяснение как сделать сравнение критериев между собой"); // устанавливаем текст
     msgBox.exec();  // отображаем диалоговое окно
 
+}
+
+
+void MainWindow::on_Crit_12_editingFinished()
+{
+  //  MakeRavers("Crit_12", 0.5,this);
 }
 
