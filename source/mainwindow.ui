@@ -108,7 +108,7 @@
      </size>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -168,6 +168,26 @@
       </property>
       <property name="text">
        <string>Варианты</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Var3">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>180</y>
+        <width>301</width>
+        <height>28</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Var4">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>210</y>
+        <width>301</width>
+        <height>28</height>
+       </rect>
       </property>
      </widget>
     </widget>
@@ -252,6 +272,9 @@
         <height>31</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
      </widget>
      <widget class="QLabel" name="label_7">
       <property name="geometry">
@@ -281,11 +304,17 @@
       <property name="cursor">
        <cursorShape>ArrowCursor</cursorShape>
       </property>
+      <property name="focusPolicy">
+       <enum>Qt::FocusPolicy::WheelFocus</enum>
+      </property>
       <property name="autoFillBackground">
        <bool>false</bool>
       </property>
       <property name="text">
        <string>1</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::EchoMode::Normal</enum>
       </property>
       <property name="alignment">
        <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -302,6 +331,9 @@
         <width>31</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="Crit_22">
@@ -361,6 +393,9 @@
         <height>31</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
      </widget>
      <widget class="QLineEdit" name="Crit_32">
       <property name="geometry">
@@ -370,6 +405,9 @@
         <width>31</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="Crit_13">
@@ -381,6 +419,9 @@
         <height>31</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
      </widget>
      <widget class="QLineEdit" name="Crit_23">
       <property name="geometry">
@@ -390,6 +431,9 @@
         <width>31</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="Crit_33">
@@ -455,6 +499,9 @@
         <height>31</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
      </widget>
      <widget class="QLineEdit" name="Crit_42">
       <property name="geometry">
@@ -465,6 +512,9 @@
         <height>31</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
      </widget>
      <widget class="QLineEdit" name="Crit_43">
       <property name="geometry">
@@ -474,6 +524,9 @@
         <width>31</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="NCrit_4">
@@ -495,6 +548,9 @@
         <height>31</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
      </widget>
      <widget class="QLineEdit" name="Crit_52">
       <property name="geometry">
@@ -504,6 +560,9 @@
         <width>31</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="NCrit_5">
@@ -524,6 +583,9 @@
         <width>31</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLabel" name="label_11">
@@ -550,6 +612,9 @@
         <width>31</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="Crit_44">
@@ -599,6 +664,9 @@
         <height>31</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
      </widget>
      <widget class="QLineEdit" name="Crit_34">
       <property name="geometry">
@@ -609,6 +677,9 @@
         <height>31</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
      </widget>
      <widget class="QLineEdit" name="Crit_24">
       <property name="geometry">
@@ -618,6 +689,9 @@
         <width>31</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLabel" name="label_13">
@@ -645,6 +719,9 @@
         <height>31</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit_27">
       <property name="geometry">
@@ -655,6 +732,9 @@
         <height>31</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
      </widget>
      <widget class="QLineEdit" name="Crit_45">
       <property name="geometry">
@@ -664,6 +744,9 @@
         <width>31</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="Crit_55">
@@ -696,6 +779,9 @@
         <width>31</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
      <widget class="QPushButton" name="KritHelp">
@@ -756,68 +842,6 @@
       </property>
       <property name="icon">
        <iconset theme="QIcon::ThemeIcon::SystemSearch"/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_19">
-      <property name="geometry">
-       <rect>
-        <x>250</x>
-        <y>90</y>
-        <width>21</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>:</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="ComVar1">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>90</y>
-        <width>150</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Вариант 1</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="ComVar2">
-      <property name="geometry">
-       <rect>
-        <x>320</x>
-        <y>90</y>
-        <width>150</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Вариант 2</string>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="lineEdit_4">
-      <property name="geometry">
-       <rect>
-        <x>210</x>
-        <y>90</y>
-        <width>41</width>
-        <height>31</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="lineEdit_31">
-      <property name="geometry">
-       <rect>
-        <x>270</x>
-        <y>90</y>
-        <width>41</width>
-        <height>31</height>
-       </rect>
       </property>
      </widget>
     </widget>
@@ -942,6 +966,96 @@
       </property>
       <property name="alignment">
        <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_35">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>180</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="RatWin_5">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>180</y>
+        <width>63</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LoseVar_3">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>180</y>
+        <width>250</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Вариант проигравший</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="RatWin_6">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>210</y>
+        <width>63</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_36">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>210</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LoseVar_4">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>210</y>
+        <width>250</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Вариант проигравший</string>
       </property>
      </widget>
     </widget>
