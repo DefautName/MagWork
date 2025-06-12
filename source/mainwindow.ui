@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>МАИ</string>
+   <string>Метод аналища иерархий</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="minimumSize">
@@ -295,7 +295,7 @@
      <widget class="QLabel" name="label_7">
       <property name="geometry">
        <rect>
-        <x>260</x>
+        <x>270</x>
         <y>20</y>
         <width>21</width>
         <height>21</height>
@@ -342,7 +342,7 @@
      <widget class="QLineEdit" name="Crit_12">
       <property name="geometry">
        <rect>
-        <x>260</x>
+        <x>270</x>
         <y>50</y>
         <width>31</width>
         <height>31</height>
@@ -355,7 +355,7 @@
      <widget class="QLineEdit" name="Crit_22">
       <property name="geometry">
        <rect>
-        <x>260</x>
+        <x>270</x>
         <y>90</y>
         <width>31</width>
         <height>31</height>
@@ -416,7 +416,7 @@
      <widget class="QLineEdit" name="Crit_32">
       <property name="geometry">
        <rect>
-        <x>260</x>
+        <x>270</x>
         <y>130</y>
         <width>31</width>
         <height>31</height>
@@ -429,7 +429,7 @@
      <widget class="QLineEdit" name="Crit_13">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>320</x>
         <y>50</y>
         <width>31</width>
         <height>31</height>
@@ -442,7 +442,7 @@
      <widget class="QLineEdit" name="Crit_23">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>320</x>
         <y>90</y>
         <width>31</width>
         <height>31</height>
@@ -455,7 +455,7 @@
      <widget class="QLineEdit" name="Crit_33">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>320</x>
         <y>130</y>
         <width>31</width>
         <height>31</height>
@@ -477,7 +477,7 @@
      <widget class="QLabel" name="label_9">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>320</x>
         <y>20</y>
         <width>21</width>
         <height>21</height>
@@ -522,7 +522,7 @@
      <widget class="QLineEdit" name="Crit_42">
       <property name="geometry">
        <rect>
-        <x>260</x>
+        <x>270</x>
         <y>170</y>
         <width>31</width>
         <height>31</height>
@@ -535,7 +535,7 @@
      <widget class="QLineEdit" name="Crit_43">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>320</x>
         <y>170</y>
         <width>31</width>
         <height>31</height>
@@ -558,7 +558,7 @@
      <widget class="QLineEdit" name="Crit_53">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>320</x>
         <y>210</y>
         <width>31</width>
         <height>31</height>
@@ -571,7 +571,7 @@
      <widget class="QLineEdit" name="Crit_52">
       <property name="geometry">
        <rect>
-        <x>260</x>
+        <x>270</x>
         <y>210</y>
         <width>31</width>
         <height>31</height>
@@ -623,7 +623,7 @@
      <widget class="QLineEdit" name="Crit_54">
       <property name="geometry">
        <rect>
-        <x>340</x>
+        <x>370</x>
         <y>210</y>
         <width>31</width>
         <height>31</height>
@@ -636,7 +636,7 @@
      <widget class="QLineEdit" name="Crit_44">
       <property name="geometry">
        <rect>
-        <x>340</x>
+        <x>370</x>
         <y>170</y>
         <width>31</width>
         <height>31</height>
@@ -658,7 +658,7 @@
      <widget class="QLabel" name="label_12">
       <property name="geometry">
        <rect>
-        <x>340</x>
+        <x>370</x>
         <y>20</y>
         <width>21</width>
         <height>21</height>
@@ -674,7 +674,7 @@
      <widget class="QLineEdit" name="Crit_14">
       <property name="geometry">
        <rect>
-        <x>340</x>
+        <x>370</x>
         <y>50</y>
         <width>31</width>
         <height>31</height>
@@ -687,7 +687,7 @@
      <widget class="QLineEdit" name="Crit_34">
       <property name="geometry">
        <rect>
-        <x>340</x>
+        <x>370</x>
         <y>130</y>
         <width>31</width>
         <height>31</height>
@@ -700,7 +700,7 @@
      <widget class="QLineEdit" name="Crit_24">
       <property name="geometry">
        <rect>
-        <x>340</x>
+        <x>370</x>
         <y>90</y>
         <width>31</width>
         <height>31</height>
@@ -713,7 +713,7 @@
      <widget class="QLabel" name="label_13">
       <property name="geometry">
        <rect>
-        <x>380</x>
+        <x>420</x>
         <y>20</y>
         <width>21</width>
         <height>21</height>
@@ -729,7 +729,7 @@
      <widget class="QLineEdit" name="Crit_15">
       <property name="geometry">
        <rect>
-        <x>380</x>
+        <x>420</x>
         <y>50</y>
         <width>31</width>
         <height>31</height>
@@ -742,7 +742,7 @@
      <widget class="QLineEdit" name="lineEdit_27">
       <property name="geometry">
        <rect>
-        <x>380</x>
+        <x>420</x>
         <y>130</y>
         <width>31</width>
         <height>31</height>
@@ -755,7 +755,7 @@
      <widget class="QLineEdit" name="Crit_45">
       <property name="geometry">
        <rect>
-        <x>380</x>
+        <x>420</x>
         <y>170</y>
         <width>31</width>
         <height>31</height>
@@ -768,7 +768,7 @@
      <widget class="QLineEdit" name="Crit_55">
       <property name="geometry">
        <rect>
-        <x>380</x>
+        <x>420</x>
         <y>210</y>
         <width>31</width>
         <height>31</height>
@@ -790,7 +790,7 @@
      <widget class="QLineEdit" name="Crit_25">
       <property name="geometry">
        <rect>
-        <x>380</x>
+        <x>420</x>
         <y>90</y>
         <width>31</width>
         <height>31</height>
@@ -830,6 +830,24 @@
         <height>21</height>
        </rect>
       </property>
+      <property name="currentText">
+       <string>Цена</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Цена</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Качество</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Сроки</string>
+       </property>
+      </item>
      </widget>
      <widget class="QLabel" name="label_4">
       <property name="geometry">
@@ -842,19 +860,6 @@
       </property>
       <property name="text">
        <string>Критерий</string>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="VarCom_43">
-      <property name="geometry">
-       <rect>
-        <x>310</x>
-        <y>210</y>
-        <width>31</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="VarCom_13">
@@ -886,70 +891,6 @@
        <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLineEdit" name="VarCom_44">
-      <property name="geometry">
-       <rect>
-        <x>350</x>
-        <y>210</y>
-        <width>31</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="cursor">
-       <cursorShape>ArrowCursor</cursorShape>
-      </property>
-      <property name="text">
-       <string>1</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
-      </property>
-      <property name="readOnly">
-       <bool>true</bool>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="VarCom_41">
-      <property name="geometry">
-       <rect>
-        <x>230</x>
-        <y>210</y>
-        <width>31</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_17">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>210</y>
-        <width>21</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>4</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="VarCom_24">
-      <property name="geometry">
-       <rect>
-        <x>350</x>
-        <y>130</y>
-        <width>31</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
-      </property>
-     </widget>
      <widget class="QLineEdit" name="VarCom_31">
       <property name="geometry">
        <rect>
@@ -974,22 +915,6 @@
       </property>
       <property name="text">
        <string>1</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_20">
-      <property name="geometry">
-       <rect>
-        <x>350</x>
-        <y>60</y>
-        <width>21</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>4</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -1040,32 +965,6 @@
       </property>
       <property name="readOnly">
        <bool>true</bool>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="VarCom_42">
-      <property name="geometry">
-       <rect>
-        <x>270</x>
-        <y>210</y>
-        <width>31</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="VarCom_34">
-      <property name="geometry">
-       <rect>
-        <x>350</x>
-        <y>170</y>
-        <width>31</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
      <widget class="QLabel" name="label_23">
@@ -1167,19 +1066,6 @@
        <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLineEdit" name="VarCom_14">
-      <property name="geometry">
-       <rect>
-        <x>350</x>
-        <y>90</y>
-        <width>31</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_24">
       <property name="geometry">
        <rect>
@@ -1235,7 +1121,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Вариант 1</string>
+       <string>Деталь 1</string>
       </property>
      </widget>
      <widget class="QLabel" name="VarName2">
@@ -1248,7 +1134,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Вариант 2</string>
+       <string>Деталь 2</string>
       </property>
      </widget>
      <widget class="QLabel" name="VarName3">
@@ -1261,20 +1147,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Вариант 3</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="VarName4">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>210</y>
-        <width>171</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Вариант 4</string>
+       <string>Деталь 3</string>
       </property>
      </widget>
      <widget class="QPushButton" name="CompHelp">
@@ -1321,7 +1194,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Вариант победитель</string>
+       <string>Деталь 1</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_15">
@@ -1366,7 +1239,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Вариант проигравший</string>
+       <string>Деталь 3</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_18">
@@ -1395,7 +1268,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>0</string>
+       <string>0.4746</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -1411,7 +1284,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>0</string>
+       <string>0.2922</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -1443,7 +1316,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>0</string>
+       <string>0.2331</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -1459,52 +1332,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Вариант проигравший</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="RatWin_6">
-      <property name="geometry">
-       <rect>
-        <x>410</x>
-        <y>210</y>
-        <width>63</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>0</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_36">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>210</y>
-        <width>21</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>4</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="LoseVar_4">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>210</y>
-        <width>250</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Вариант проигравший</string>
+       <string>Деталь 2</string>
       </property>
      </widget>
      <widget class="QPushButton" name="RezHelp">
